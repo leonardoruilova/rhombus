@@ -71,7 +71,7 @@ y cubrira desde la biblioteca mas grande a la funcion mas diminuta, para todos a
 Este Sistema Operativo puede ser compilado con hosts Linux para arquitecturas x86 y x86_64. 
 Es posible que ud. compile Rhombus en  otras plataformas y muy probablemente en cualquier Sistema Operativo de la familia UNIX.
 
-To reliably build the system, you should use a cross-compiler. Instructions
+Para compilar el sistema con confianza, ud. deberia usar un cross-compiler. Instructions
 for how to install a cross-compiler for Rhombus are found here:
 https://github.com/nickbjohnson4224/rhombus/wiki/Environment-setup
 
