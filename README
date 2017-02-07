@@ -8,7 +8,7 @@ Introduccion
 Definicion de Rhombus
 
 Rhombus es un Sistema Operativo con propositos recreativos (del ingles hobby operating system).
-Rhombus  ha sido disenado y programado en su mayor parte por Nick Johnson, desde finales del 2008. 
+Rhombus ha sido disenado y programado en su mayor parte por Nick Johnson, desde finales del 2008. 
 Rhombus esta conformado por un microkernel, una biblioteca C, una linea de comandos, utilidades simples y diversos controladores. 
 Ud. podria ejecutar Rhombus  en hardware estandar de Pc con un CPU Pentium o superior. 
 Rhombus se ejecuta en modo protegido de 32 bit.
@@ -29,18 +29,20 @@ sera posible que aprecie diversas otras tecnologias en mi codigo fuente.
 
 Acerca del uso del Sistema Operativo Rhombus
 
-At the moment, Rhombus is not stable enough for real use, but it is rapidly
-progressing toward that point. It already can run a Lua interpreter, which
-is written in standard C, and all of its source code can be compiled with
-all warning flags and all optimization flags for CLang. The first beta
-release of Rhombus will likely occur soon.
+El Sistema Operativo Rhombus carece de la estabilidad necesaria para el uso cotidiano, si bien estamos avances en ese aspecto.
 
-All code in the Rhombus core (kernel, libc, libdriver, basic drivers) as well 
-as most of the rest of the system uses an OpenBSD-like copyright statement.
-In essence, this means you can freely modify and redistribute Rhombus as long
-as you keep the license and copyright information on each of the files that
-contains it. The OpenBSD license statement is a certified open source license, 
-but you may incorporate Rhombus code into closed source projects if you wish.
+Ud. puede programar en Rhombus con el lenguaje Lua, con nuestro interprete escrito en C.
+Ud. puede compilar bajo CLang nuestro interprete, con todas las warning flags and all optimization flags correspondientes. 
+
+Lanzaremos la primera version beta de Rhombus en un futuro cercano.
+
+Liberamos bajo un derecho de autor similar a OpenBSD todo el codigo del Rhombus core, compuesto por el nucleo, las bibliotecas libc y libdriver, asi como los 
+controladores basicos.
+Esto implica que ud. puede modificar y redistribuir el codigo fuente de Rhombus con libertad, 
+siempre que mantenga la licencia original y la informacion de la autoria en cada uno de los archivos de su version. 
+
+El OpenBSD license statement es una licencia de codigo abierto certificada, 
+sin embargo ud. el codigo fuente de Rhombus en projectos de software privativo si asi lo desea.
 
 What are the goals of Rhombus?
 
