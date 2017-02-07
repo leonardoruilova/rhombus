@@ -7,20 +7,27 @@ Introduccion
 
 Definicion de Rhombus
 
-Rhombus es un Sistema Operativo con propositos recreativos (del ingles hobby operating system) que ha sido disenado y programado en su mayor parte por Nick Johnson, desde finales del 2008. 
+Rhombus es un Sistema Operativo con propositos recreativos (del ingles hobby operating system).
+Rhombus  ha sido disenado y programado en su mayor parte por Nick Johnson, desde finales del 2008. 
 Rhombus esta conformado por un microkernel, una biblioteca C, una linea de comandos, utilidades simples y diversos controladores. 
 Ud. podria ejecutar Rhombus  en hardware estandar de Pc con un CPU Pentium o superior. 
 Rhombus se ejecuta en modo protegido de 32 bit.
 
-El Sistema Operativo Rhombus tiene familiaridad con UNIX en muchos aspectos, pero utilizamos un estandar propio, sin compatibilidad POSIX, si bien podriamos implementar dicha compatibilidad en el futuro. 
-It has a particularly interesting VFS mechanism that allows any 
-process to act as not only a file, but a whole mounted file system. It also 
-is very fundamentally event-driven and multithreaded, which is good for 
-driver writing and scalability over multiple processors (or at least it will 
-be, once I get around to adding SMP support :P). It has been a sort of 
-sandbox for my ideas, so there are plenty of other interesting bits as well.
+El Sistema Operativo Rhombus tiene familiaridad con UNIX en muchos aspectos. 
+En nuestro Sistema Operativo utilizamos un estandar propio, sin compatibilidad POSIX. 
+Consideramos posible implementar dicha compatibilidad POSIX en el futuro. 
 
-How do I use Rhombus?
+Nuestro Sistema Operativo posee mecanismo de VFS particularmente distinto, que  
+permite a los procesos actuar no solo como archivos, sino como un Sistema de Archivos montado y completo. 
+
+En Rhombus tambien existe como fundamento una orientacion a eventos y multiproceso en hebras. 
+Dichas cualidades son de utilidad para la programacion de controladores, asi como 
+para la futura escalabilidad en multiples procesadores. 
+
+En Rhombus ud. podra ver una suerte de caja de arena para mi creatividad, por lo que 
+sera posible que aprecie diversas otras tecnologias en mi codigo fuente.
+
+Acerca del uso del Sistema Operativo Rhombus
 
 At the moment, Rhombus is not stable enough for real use, but it is rapidly
 progressing toward that point. It already can run a Lua interpreter, which
