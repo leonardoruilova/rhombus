@@ -44,14 +44,16 @@ siempre que mantenga la licencia original y la informacion de la autoria en cada
 El OpenBSD license statement es una licencia de codigo abierto certificada, 
 sin embargo ud. el codigo fuente de Rhombus en projectos de software privativo si asi lo desea.
 
-What are the goals of Rhombus?
+Acerca de las metas del Sistema Operativo Rhombus
 
-Rhombus, much like the original UNIX, strives to give the programmer powerful, 
-general connections with which to combine system components. With UNIX came 
-text pipelines and device files; Rhombus extends this with uniform resource
-addressing, a general purpose command system for system daemons and services,
-graphics and event pipelines, and pseudo-filesystems that can be presented by
-any user process.
+Rhombus, tal como el UNIX original, lucha por empoderar al programador mediante conexiones 
+con las cuales el programador puede combnar componentes simples de esta tecnologia. 
+ 
+Con el Sistema Operativo UNIX llego la tecnologia de las tuberias de texto y los archivos de 
+dispositivos. En Rhombus, nosotros extendemos esta metafora con direccionamiento uniforme de recursos
+(uniform resource addressing), un sistema de interaccion mediante comandos de proposito general
+para daemons de sistema asi como para servicios, para tuberias graficos y tuberias de eventos y 
+pseudo sistemas de archivos que pueden ser mostrados por cualquier proceso de usuario.
 
 In addition, Rhombus strives to allow easy modification, when existing stacks
 and protocols prove insufficient. Rhombus is built to be rebuilt, to be taken 
