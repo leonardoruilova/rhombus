@@ -55,13 +55,16 @@ dispositivos. En Rhombus, nosotros extendemos esta metafora con direccionamiento
 para daemons de sistema asi como para servicios, para tuberias graficos y tuberias de eventos y 
 pseudo sistemas de archivos que pueden ser mostrados por cualquier proceso de usuario.
 
-In addition, Rhombus strives to allow easy modification, when existing stacks
-and protocols prove insufficient. Rhombus is built to be rebuilt, to be taken 
-apart and understood, and to be a foundation for new ideas. Every core piece 
-of Rhombus is intended to be simple enough for a single person to completely 
-understand, and if necessary, to for a single person to rewrite.
-Documentation (at release at least) will be comprehensive from the largest 
-library down to the smallest function, to aid those who wish to hack.
+Ademas, en Rhombus promovemos la facilidad de modificacion, cuando los stacks existentes y los protocolos resultan insuficientes. 
+and protocols prove insufficient. 
+
+Nuestro Sistema Operativo Rhombus esta construido para ser reconstruido, para ser analizado y entendido
+y para ser el fundamento de nuevas ideas. 
+Cada pieza clave de Rhombus esta concebida para ser suficientemente simple para que una persona la entienda completamente 
+y si es necesario para que esa misma persona reescriba Rhombus en su totalidad. 
+
+La documentacion, al menos hasta esta version, sera exhaustiva 
+y cubrira desde la biblioteca mas grande a la funcion mas diminuta, para todos aquellos que deseen hackear Rhombus.
 
 ### Build Instructions
 
