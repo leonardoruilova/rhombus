@@ -2,8 +2,8 @@ Sistema Operativo Rhombus Operating version 0.8 (Alfa)
 
 -- Ante cualquier duda, por favor revise nuestra Wiki y nuestras Preguntas de Usuario Frecuentes (FAQ) --
 
-Introduccion
-*****************************************************************************
+## Introduccion
+
 
 Definicion de Rhombus
 
@@ -27,7 +27,7 @@ para la futura escalabilidad en multiples procesadores.
 En Rhombus ud. podra ver una suerte de caja de arena para mi creatividad, por lo que 
 sera posible que aprecie diversas otras tecnologias en mi codigo fuente.
 
-Acerca del uso del Sistema Operativo Rhombus
+## Acerca del uso del Sistema Operativo Rhombus
 
 El Sistema Operativo Rhombus carece de la estabilidad necesaria para el uso cotidiano, si bien estamos avances en ese aspecto.
 
@@ -44,7 +44,7 @@ siempre que mantenga la licencia original y la informacion de la autoria en cada
 El OpenBSD license statement es una licencia de codigo abierto certificada, 
 sin embargo ud. el codigo fuente de Rhombus en projectos de software privativo si asi lo desea.
 
-Acerca de las metas del Sistema Operativo Rhombus
+## Acerca de las metas del Sistema Operativo Rhombus
 
 Rhombus, tal como el UNIX original, lucha por empoderar al programador mediante conexiones 
 con las cuales el programador puede combnar componentes simples de esta tecnologia. 
@@ -63,8 +63,7 @@ understand, and if necessary, to for a single person to rewrite.
 Documentation (at release at least) will be comprehensive from the largest 
 library down to the smallest function, to aid those who wish to hack.
 
-Build Instructions
-*****************************************************************************
+## Build Instructions
 
 This system is meant to be built with x86 or x86_64 Linux as a host: it may 
 build and test on other Linux platforms, and will probably build on any 
@@ -79,7 +78,6 @@ type "make image" -- the image will be created at rhombus/run/rhombus.iso.
 To build and then test the system using QEMU, type "make test". To remove 
 all object files, type "make clean".
 
-Licencia de la traduccion al castellano
-*****************************************************************************
+## Licencia de la traduccion al castellano
 
 Esta traduccion fue hecha por Virgilio Leonardo Ruilova, ha sido liberada a los Comunes bajo la licencia CC-BY-NC-SA
