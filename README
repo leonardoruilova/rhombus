@@ -71,14 +71,18 @@ y cubrira desde la biblioteca mas grande a la funcion mas diminuta, para todos a
 Este Sistema Operativo puede ser compilado con hosts Linux para arquitecturas x86 y x86_64. 
 Es posible que ud. compile Rhombus en  otras plataformas y muy probablemente en cualquier Sistema Operativo de la familia UNIX.
 
-Para compilar el sistema con confianza, ud. deberia usar un cross-compiler. Instructions
-for how to install a cross-compiler for Rhombus are found here:
+Para compilar el sistema con confianza, ud. deberia usar un cross-compiler. 
+Las instrucciones para instalar un cross-compiler en Rhombus se encuentran en el Sgte. enlace:
+
 https://github.com/nickbjohnson4224/rhombus/wiki/Environment-setup
 
-To build the system, type "make". To create a CD image from the built system,
-type "make image" -- the image will be created at rhombus/run/rhombus.iso. 
-To build and then test the system using QEMU, type "make test". To remove 
-all object files, type "make clean".
+Para compilar Rhombus, use el comando "make". Para crear una imagen de  CD desde el sistema de compilacion,
+use el comando "make image". La imagen sera creada en el directorio rhombus/run/rhombus.iso. 
+
+Para compilar y luego probar el sistema en QEMU, use el comando "make test". 
+
+Para eliminar todos los archivos de objeto, use el comando "make clean".
+
 
 ### Licencia de la traduccion al castellano
 
