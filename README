@@ -66,11 +66,10 @@ y si es necesario para que esa misma persona reescriba Rhombus en su totalidad.
 La documentacion, al menos hasta esta version, sera exhaustiva 
 y cubrira desde la biblioteca mas grande a la funcion mas diminuta, para todos aquellos que deseen hackear Rhombus.
 
-### Build Instructions
+### Instrucciones de compilacion
 
-This system is meant to be built with x86 or x86_64 Linux as a host: it may 
-build and test on other Linux platforms, and will probably build on any 
-UNIX-like system.
+Este Sistema Operativo puede ser compilado con hosts Linux para arquitecturas x86 y x86_64. 
+Es posible que ud. compile Rhombus en  otras plataformas y muy probablemente en cualquier Sistema Operativo de la familia UNIX.
 
 To reliably build the system, you should use a cross-compiler. Instructions
 for how to install a cross-compiler for Rhombus are found here:
