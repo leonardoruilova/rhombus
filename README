@@ -1,21 +1,19 @@
-Rhombus Operating System 0.8 Alpha
+Sistema Operativo Rhombus Operating version 0.8 (Alfa)
 
--- Have a problem? Check the Wiki and FAQ first! --
+-- Ante cualquier duda, por favor revise nuestra Wiki y nuestras Preguntas de Usuario Frecuentes (FAQ) --
 
-Introduction
+Introduccion
 *****************************************************************************
 
-What is Rhombus?
+Definicion de Rhombus
 
-Rhombus is a hobby operating system project designed and written primarily by 
-me (Nick Johnson), since some time in late 2008. Currently, it consists of a 
-microkernel, a C library, a shell and simple utilities, and a small set of 
-device drivers. It should run on any standard PC hardware with a Pentium
-or better processor, and uses 32 bit protected mode.
+Rhombus es un Sistema Operativo con propositos recreativos (del ingles hobby operating system) que ha sido disenado y programado en su mayor parte por Nick Johnson, desde finales del 2008. 
+Rhombus esta conformado por un microkernel, una biblioteca C, una linea de comandos, utilidades simples y diversos controladores. 
+Ud. podria ejecutar Rhombus  en hardware estandar de Pc con un CPU Pentium o superior. 
+Rhombus se ejecuta en modo protegido de 32 bit.
 
-The Rhombus system is roughly UNIX-like in many areas, but it is mostly its
-own system, and is not POSIX compliant (although it may be partially so in
-the future.) It has a particularly interesting VFS mechanism that allows any 
+El Sistema Operativo Rhombus tiene familiaridad con UNIX en muchos aspectos, pero utilizamos un estandar propio, sin compatibilidad POSIX, si bien podriamos implementar dicha compatibilidad en el futuro. 
+It has a particularly interesting VFS mechanism that allows any 
 process to act as not only a file, but a whole mounted file system. It also 
 is very fundamentally event-driven and multithreaded, which is good for 
 driver writing and scalability over multiple processors (or at least it will 
@@ -69,3 +67,8 @@ To build the system, type "make". To create a CD image from the built system,
 type "make image" -- the image will be created at rhombus/run/rhombus.iso. 
 To build and then test the system using QEMU, type "make test". To remove 
 all object files, type "make clean".
+
+Licencia de la traduccion al castellano
+*****************************************************************************
+
+Esta traduccion fue hecha por Virgilio Leonardo Ruilova, ha sido liberada a los Comunes bajo la licencia CC-BY-NC-SA
